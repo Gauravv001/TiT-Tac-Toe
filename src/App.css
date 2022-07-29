@@ -1,0 +1,23 @@
+body {
+  background-image: url(https://wallpaperaccess.com/full/2078959.jpg);
+  background-position: 50px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.box {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkcyan;
+}
+.icon {
+  font-size: 35px;
+  color:#ffffff;
+}
